@@ -6,7 +6,7 @@
 // @downloadURL         github.com/Saighedd/SynPro/raw/main/SynPro.user.js
 // @supportURL          https://github.com/Saighedd/SynPro/issues
 // @match               https://www.syntax.eco/*
-// @version             1.6
+// @version             1.6.1
 // @author              Saighed
 // @grant               GM_xmlhttpRequest
 // @description         This is a Userscript for all users adding cool and useful code for some and some not. Created by @Saighed
@@ -119,7 +119,9 @@
     'use strict';
 
     const buttons = document.querySelectorAll('form button.btn');
+    const currentURL = window.location.href;
 
+    if (currentURL.includes("*://www.syntax.eco/pending-assets")) {
     buttons.forEach(button => {
         button.addEventListener('click', function(event) {
             event.preventDefault();
@@ -145,7 +147,6 @@
             }
         });
     });
-
     function findAssetId(form) {
         const assetIdElement = form.querySelector('.text-white');
         if (assetIdElement) {
@@ -153,4 +154,4 @@
         }
         return null;
     }
-})();
+}})();
