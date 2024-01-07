@@ -1,13 +1,11 @@
 # SynPro
-This is a Syntax Userscript made by @saighed allot like Syntax+ but better!
-Added:
-• Auto Update
-• Bug report
-• SynPro Icon
-Removed:
-• That name shortening shit
-• Admin button
-Working:
-• RAP system
+Hello SynPro User, i don't think i will be making frequent updates to SynPro anymore and it will be more or less discontinued, although if i get the heart i will update or continue production.
 
-SynPro settings panel has been put on hold cuz im dumb so a bunch of other stuff will be put on hold. This is just a small update to address some issues (not all).
+# For New Users
+### Heres how to install SynPro
+  1. Head to this website https://www.tampermonkey.net
+  2. scroll down and click 'Get From Store'
+  3. install TamperMonkey and come back to this page
+  4. Click SynPro.user.js and click 'Raw'
+  5. This Should bing you to a page that looks like this http://saighed.xyz/images/ws5gor1f.png
+  6. Click 'Install' and you should be all set 👍
