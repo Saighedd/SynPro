@@ -7,5 +7,5 @@ Hello SynPro User, i don't think i will be making frequent updates to SynPro any
   2. scroll down and click 'Get From Store'
   3. install TamperMonkey and come back to this page
   4. Click SynPro.user.js and click 'Raw'
-  5. This Should bing you to a page that looks like this http://saighed.xyz/images/ws5gor1f.png
+  5. This Should bing you to a page that looks like this ![image](https://github.com/Saighedd/SynPro/assets/140229643/4b92753e-7512-4ef6-989f-efaf75baa5c3)
   6. Click 'Install' and you should be all set 👍
